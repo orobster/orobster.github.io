@@ -61,7 +61,7 @@ footer .note{margin:0; color:var(--muted); font-size:14px}
 h2{color:#dce6f2;text-transform:none;letter-spacing:-.01em;font-size:22px;font-weight:700}
 .card{background:#0a1220;border:1px solid #101c2e;border-radius:2px;padding:20px}
 
-body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:repeating-linear-gradient(0deg, transparent 0 39px, #101c2e 39px 40px)}
+background-image:repeating-linear-gradient(0deg, transparent 0 39px, #101c2e 39px 40px);
 </style>
 </head>
 <body>
@@ -76,7 +76,7 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 
 <section class="about" id="about">
   <h2>关于</h2>
-  <p>智能体重试风暴是我这几年反复回到的问题。 当前以硕士阶段研究角色的方式推进项目。</p>
+  <p>智能体重试风暴是我这几年反复回到的问题。</p>
   <ul class="traits">
     <li>没检查到的项要明说，不能默认没问题。</li>
     <li>结论后面附上判定依据。</li>
@@ -89,20 +89,12 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   <div class="grid two">
     <article class="card">
       <h3>智能体重试风暴里的噪声来源与最小样本量</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>智能体重试风暴的判定依据与复核方式</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>智能体重试风暴里容易误判的情形与反例</h3>
-      <span class="status">持续跟进</span>
-    </article>
-    <article class="card">
-      <h3>在推进的问题</h3>
-      <p>（智能体重试风暴场景）重复测量智能体重试风暴时，结果波动有多大？用抽样与样本量分析给出误差区间和样本量要求。</p>
-      <span class="status">进行中</span>
     </article>
   </div>
 </section>
@@ -112,9 +104,6 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   <ul class="repos">
     <li><div class="name"><a href="https://github.com/orobster/retryflood" rel="noopener">retryflood</a></div>
       <div class="desc">按时间窗口统计重试密度，标出触发风暴的失败类型</div>
-    </li>
-    <li><div class="name"><a href="https://github.com/orobster/sampling_budgeted_evaluation_0b2f7d31" rel="noopener">sampling_budgeted_evaluation_0b2f7d31</a></div>
-      <div class="desc">（智能体重试风暴场景）重复测量智能体重试风暴时，结果波动有多大？用抽样与样本量分析给出误差区间和样本量要求。</div>
     </li>
   </ul>
 </section>
